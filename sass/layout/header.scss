@@ -1,0 +1,43 @@
+
+.HContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    // display: inline-block;
+    grid-row: 1 / 2;
+    grid-column: full-start / full-end;
+
+    &__background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        height: 50vh;
+        width: 100%;
+    }
+
+    &__companyTxt {
+        display: inline-block;
+        font-family: 'Vibur', cursive; 
+        font-size: 4rem;
+        font-weight: 400;
+        color: var(--color-text-header);
+        margin-top: auto;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
+}
+
+.ctaWrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    height: 50%;
+    margin: auto 1rem 0 0;
+}

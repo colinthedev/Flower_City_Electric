@@ -1,0 +1,65 @@
+//Services Section Start
+.iconSml {
+    display: block;
+    height: 4.5rem;
+    width: 4.5rem;
+    margin-bottom: 1rem;
+}
+
+.headingSml {
+    color: var(--color-text-main-white);
+    letter-spacing: .5px;
+    font-size: 1.70rem;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1rem;
+}
+
+.listContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    // align-items: center;
+    height: 10rem;
+}
+
+.aboutList {
+    color: var(--color-text-main-white);
+    letter-spacing: .75px;
+    font-size: .85rem;
+    font-weight: 400;
+    font-family: 'Ramabhadra', sans-serif;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+
+//Service Section End
+
+//Area Section Start
+
+.headingMedium {
+    color: var(--color-text-main-white);
+    letter-spacing: .5px;
+    font-size: 2.3rem;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    margin: 0 auto 1rem auto;
+}
+
+//Area Section End
+
+//Footer Section
+
+.footerTxtSml {
+    color: var(--color-text-main-white);
+    letter-spacing: .55px;
+    font-size: 1rem;
+    font-family: 'Rambla', sans-serif;
+    margin-bottom: .5rem;
+}

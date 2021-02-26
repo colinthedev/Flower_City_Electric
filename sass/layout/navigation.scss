@@ -1,0 +1,23 @@
+
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 10vh;
+    border-radius: 5px;
+    background: var(--color-background-header);
+
+    grid-row: 2 / 3;
+    grid-column: full-start / full-end;
+
+    &__navBtn {
+        cursor: pointer;
+        font-family: 'Ramabhadra', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 400;
+        text-decoration: underline;
+        color: var(--color-SVG-orange);
+    }
+}

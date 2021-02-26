@@ -1,0 +1,12 @@
+
+.servicesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 40;
+    grid-row: 3 / 4;
+    grid-column: full-start / full-end;
+}
+

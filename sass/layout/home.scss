@@ -1,0 +1,40 @@
+
+.areaContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-items: center;
+    display: grid;
+    grid-row: 4 / 5;
+    grid-column: full-start / full-end;
+
+    &__map {
+        display: block;
+        height: auto;
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+}
+
+
+.imgGallery {
+    display: grid;
+    grid-row: 7 / 8;
+    grid-column: full-start / full-end;
+}
+
+.galleryWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100vw;
+    overflow: hidden;
+    flex-wrap: nowrap;
+
+    &__img {
+        display: block;
+        height: 30rem;
+        width: 100vw;
+        border-radius: 20px;
+    }
+}
