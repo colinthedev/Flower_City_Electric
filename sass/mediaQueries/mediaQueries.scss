@@ -1,0 +1,169 @@
+//Phones
+@media only screen and (min-device-width: 360px) {
+    .HContainer__companyTxt {
+        font-size: 4.85rem;
+    }
+
+    .aboutSummary {
+        font-size: 1.45rem;
+        line-height: 1.60rem;
+    }
+
+    .aboutList {
+        font-size: .9rem;
+    }
+
+    .footerTxtSml {
+        font-size: 1.25rem;
+    }
+    
+    .toTop {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+}
+
+//Phones
+@media only screen and (min-device-width: 375px) {
+    .HContainer__companyTxt {
+        font-size: 5.25rem;
+    }
+}
+
+//Phones
+@media only screen and (min-device-width: 390px) {
+    .HContainer__companyTxt {
+        font-size: 5.5rem;
+    }
+
+    .aboutSummary {
+        font-size: 1.7rem;
+        line-height: 1.6rem;
+        margin-top: 4.25rem;
+    }
+}
+
+//Phones
+@media only screen and (min-device-width: 414px) {
+    .HContainer__companyTxt {
+        font-size: 6.25rem;
+    }
+
+   .headingMedium {
+    font-size: 2.5rem;
+    font-weight: 800;
+   }
+
+   .aboutSummary {
+    font-size: 1.85rem;
+    line-height: 1.7rem;
+    margin-top: 4.25rem;
+    font-weight: 100;
+    }
+
+    .phoneNumber,
+    .email,
+    .yellowTxt {
+        letter-spacing: .5px;
+    }
+
+    .toTop {
+        height: 3rem;
+        width: 3rem;
+    }
+}
+
+//Phones
+@media only screen and (max-device-width: 600px) {
+    .navContainer {
+        display: none !important;
+    }
+}
+
+//Phones
+@media only screen and (min-device-width: 600px) {
+    //header
+    .HContainer__companyTxt {
+        font-size: 9.25rem;
+    }
+    //services
+    .servicesContainer {
+        margin-top: 4rem!important;
+    }
+
+    .aboutList {
+        font-size: 1.05rem;
+    }
+    //headings
+    .headingSml {
+        font-size: 2.75rem;
+    }
+
+    .headingMedium {
+        font-size: 3.25rem;
+        letter-spacing: .65px;
+    }
+    //button
+    .apptBtnSml {
+        width: 18rem;
+        height: 2.75rem;
+        font-size: 1.15rem;
+        letter-spacing: .5px;
+    }
+    //phone, email
+    .phoneNumber,
+    .email {
+        font-size: 1.5rem;
+    }
+    //about section
+    .aboutBackgrounds {
+        width: 80%;
+    }
+
+    .aboutSummary {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        letter-spacing: .5px;
+        margin: 8rem;
+    }
+    //review section
+    .reviewColumn__review {
+        letter-spacing: .65px;
+        line-height: 1.55rem;
+        margin-right: .75rem;
+    }
+
+    .reviewColumn__img {
+        height: 7.5rem;
+        width: 7.5rem;
+        margin-bottom: 0;
+    }
+    //gallery
+
+    //footer
+    .rowOneWrapper {
+        width: 45%;
+    }
+
+    .rowOneWrapper__p {
+        font-size: 1.15rem;
+    }
+    
+    .rowOneWrapper__Fc {
+        font-size: 2.5rem;
+        letter-spacing: .75px;
+    }
+
+    .rowTwoWrapper {
+        width: 55%;
+    }
+
+    .socialMedia__iconWrapper-icon {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .footerTxtSml {
+        font-size: 1.5rem;
+    }
+}

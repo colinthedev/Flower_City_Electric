@@ -18,7 +18,7 @@ font-family: 'Vibur', cursive;
 <title>Flower City Electrical</title>
 </head>
 <body class="MainContainer">
-    <header class="HContainer">
+    <header id="top" class="HContainer">
         <img src="img/Header_backgrounddesktop.jpg" alt="background img" class="HContainer__background">
         <h1 class="HContainer__companyTxt">Flower City Electric</h1>
         <div class="ctaWrapper">
@@ -33,7 +33,7 @@ font-family: 'Vibur', cursive;
             <button href="#" class="navContainer__navBtn">Careers</button>
         </div>
 
-    <div class="servicesContainer" style="margin: 4rem 0 4rem 0;">
+    <div class="servicesContainer" style="margin: -3rem 0 4rem 0;">
         <div class="resWrapper center">
             <img src="img/residential.svg" alt="image of house" class="resWrapper__icon iconSml">
             <h3 class="resWrapper__heading headingSml">Residential</h3>
@@ -51,11 +51,11 @@ font-family: 'Vibur', cursive;
             <img src="img/commerical.svg" alt="image of buildings" class="commWrapper__icon iconSml">
             <h3 class="commWrapper__heading headingSml">Commercial</h3>
             <ul class="listContainer">
-                <li class="aboutList">-Panel Upgrades</li>
-                <li class="aboutList">-Surge Protectors</li>
-                <li class="aboutList">-Troubleshooting</li>
-                <li class="aboutList">-House Re-wiring</li>
                 <li class="aboutList">-New Construction</li>
+                <li class="aboutList">-Design Builds</li>
+                <li class="aboutList">-Remodels</li>
+                <li class="aboutList">-Maintenance</li>
+                <li class="aboutList">-Troubleshooting</li>
                 <alink class="aboutList center yelllowTxt">& More</alink>
             </ul>
         </div>
@@ -64,11 +64,11 @@ font-family: 'Vibur', cursive;
             <img src="img/industrial.svg" alt="image of factory" class="indWrapper__icon iconSml">
             <h3 class="indWrapper__heading headingSml">Industrial</h3>
             <ul class="listContainer">
-                <li class="aboutList">-Panel Upgrades</li>
-                <li class="aboutList">-Surge Protectors</li>
-                <li class="aboutList">-Troubleshooting</li>
-                <li class="aboutList">-House Re-wiring</li>
-                <li class="aboutList">-New Construction</li>
+                <li class="aboutList">-Maintenance</li>
+                <li class="aboutList">-Control Systems</li>
+                <li class="aboutList">-Renewable Energy</li>
+                <li class="aboutList">-Low Voltage</li>
+                <li class="aboutList">-Arc-Flash Prevention</li>
                 <alink class="aboutList center yelllowTxt">& More</alink>
             </ul>
         </div>
@@ -112,29 +112,38 @@ font-family: 'Vibur', cursive;
     </div>
 
     <footer class="footerContainer">
-        <img src="img/backtotop.svg" alt="back to top button" class="footerContainer__toTop">
-        <div class="rowOneWrapper">
-            <span class="rowOneWrapper__Fc">F.C Electric</span>
-            <span class="rowOneWrapper__address footerTxtSml">123 Sugarplum ln, Whoville NY</span>
-            <span class="phoneNumber ">Phone (585) 000-0000</span>
-            <span class="rowOneWrapper__p footerTxtSml">Get discounts, coupons and tips to keep your electrical up to date.</span>
-            <div class="mailingList">
-
+        <a href="#top">
+        <img src="img/backtotop.svg" alt="back to top button" class="toTop">
+        </a>
+        <div class="contentWrappers">
+            <div class="rowOneWrapper">
+                <span class="rowOneWrapper__Fc">F.C Electric</span>
+                    <span class="rowOneWrapper__address footerTxtSml">123 Sugarplum ln, Whoville NY</span>
+                        <span class="phoneNumber ">Phone (585) 000-0000</span>
+                    <span class="rowOneWrapper__p">Get discounts, coupons and tips to keep your electrical up to date.</span>
+                <div class="formContainer">
+                    <form action="submit">
+                        <label for="email"></label>
+                            <input class="formContainer__placehold" type="text" placeholder="Email Address" name="email" required>
+                        <button class="emailSubmit">&#62;</button>
+                    </form>
+                </div>
+            </div>
+            <div class="rowTwoWrapper">
+                    <div class="socialMedia">
+                        <span class="footerTxtSml">Connect With Us!</span>
+                        <div class="socialMedia__iconWrapper">
+                            <img src="img/iconfacebook.svg" alt="Facebook icon" class="socialMedia__iconWrapper-icon">
+                            <img src="img/icontwitter.svg" alt="Twitter icon" class="socialMedia__iconWrapper-icon">
+                            <img src="img/iconlinkedin.svg" alt="Linked-in icon" class="socialMedia__iconWrapper-icon">
+                            <img src="img/iconinstagram.svg" alt="Instagram icon" class="socialMedia__iconWrapper-icon">
+                        </div>
+                    </div>
+                <button style="margin:0 auto 0 auto" class="apptBtnSml">Request An Appointment</button>
             </div>
         </div>
-        <div class="rowTwoWrapper">
-                <div class="socialMedia">
-                    <span class="footerTxtSml">Connect With Us!</span>
-                    <div class="socialMedia__iconWrapper">
-                        <img src="img/iconfacebook.svg" alt="Facebook icon" class="socialMedia__iconWrapper-icon">
-                        <img src="img/icontwitter.svg" alt="Twitter icon" class="socialMedia__iconWrapper-icon">
-                        <img src="img/iconlinkedin.svg" alt="Linked-in icon" class="socialMedia__iconWrapper-icon">
-                        <img src="img/iconinstagram.svg" alt="Instagram icon" class="socialMedia__iconWrapper-icon">
-                    </div>
-                </div>
-            <button class="apptBtnSml">Request An Appointment</button>
-        </div>
     </footer>
+
 
     <script src="main.js"></script>
 </body>

@@ -1,5 +1,3 @@
-
-
 .apptBtnSml {
     cursor: pointer;
     font-family: 'Ramabhadra', sans-serif;
@@ -15,6 +13,20 @@
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.apptBtnSml:active {
+    transform: scale(.95);
+}
+
+.yelllowTxt {
+    cursor: pointer;
+    letter-spacing: .75px;
+    color: var( --color-text-main-yellow) !important;
+}
+
+.yelllowTxt:active {
+    transform: scale(.90);
+}
+
 .phoneNumber,
 .email {
     font-family: 'Rambla', sans-serif;
@@ -25,12 +37,26 @@
     margin-bottom: 1rem;
 }
 
-.yelllowTxt {
+//Footer 
+.toTop {
     cursor: pointer;
-    color: var( --color-text-main-yellow) !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2rem;
+    width: 2rem;
+    margin-top: .5rem;
 }
 
-.mailingList {
-
+.toTop:active {
+    transform: scale(.90);
 }
 
+.emailSubmit {
+    display: block;
+    cursor: pointer;
+    height: inherit;
+    width: 2rem;
+    background: var(--color-background-btn);
+    color: var(--color-text-btn);
+}

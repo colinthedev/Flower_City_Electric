@@ -14,21 +14,17 @@
 
 .aboutSummary {
     position: absolute;
-    margin-top: 3.75rem;
+    margin-top: 4.75rem;
     margin-right: 2rem;
     margin-left: 2rem;
-    color: var(--color-text-main-white);
-    font-family: 'Rambla', sans-serif;
-    font-weight: 300;
-    letter-spacing: .5px;
-    line-height: 1.45rem;
-    font-size: 1.25rem;
+    width: 90%;
 }
 
 .aboutBackgrounds {
     display: block;
     height: auto;
     width: 95%;
-    margin: .75rem auto .75rem auto;
+    // margin: .75rem auto .75rem auto;
+    opacity: 90%;
 }
 

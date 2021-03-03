@@ -1,0 +1,108 @@
+.headingSml {
+    color: var(--color-text-main-white);
+    letter-spacing: .5px;
+    font-size: 1.70rem;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1rem;
+}
+
+.headingMedium {
+    color: var(--color-text-main-white);
+    letter-spacing: .60px;
+    font-size: 2.3rem;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    margin: 0 auto 1rem auto;
+}
+
+.HContainer {
+
+    &__companyTxt {
+        font-family: 'Vibur', cursive; 
+        font-size: 4rem;
+        font-weight: 400;
+        color: var(--color-text-header);
+    }
+}
+
+.navContainer {
+
+    &__navBtn {
+        font-family: 'Ramabhadra', sans-serif;
+        font-size: 1.2rem;
+        letter-spacing: .5px;
+        font-weight: 400;
+        text-decoration: underline;
+        color: var(--color-SVG-orange);
+    }
+}
+
+.aboutSummary {
+    color: var(--color-text-main-white);
+    font-family: 'Rambla', sans-serif;
+    font-weight: 100;
+    letter-spacing: .5px;
+    line-height: 1.45rem;
+    font-size: 1.25rem;
+}
+
+.reviewColumn {
+
+    &__review {
+        color: var(--color-text-main-white);
+        font-family: 'Rambla', sans-serif;
+        font-weight: 100;
+        letter-spacing: .5px;
+        line-height: 1.45rem;
+        font-size: 1.25rem;
+    }
+
+    &__review::before {
+        content: '\0022';
+        color: var(--color-SVG-yellow);
+        font-size: 6rem;
+    }
+
+    &__review::after {
+        content: '\0022';
+        color: var(--color-SVG-yellow);
+        font-size: 6rem;
+    }
+}
+
+.footerTxtSml {
+    color: var(--color-text-main-white);
+    letter-spacing: .55px;
+    font-size: 1rem;
+    font-family: 'Rambla', sans-serif;
+    margin-bottom: .5rem;
+}
+
+.rowOneWrapper {
+
+    &__Fc {
+        color: var(--color-text-main-white);
+        letter-spacing: .5px;
+        font-size: 2rem;
+        font-weight: 400;
+        font-family: 'Vibur', cursive; 
+    }
+
+    &__p {
+        color: var(--color-text-main-white);
+        letter-spacing: .55px;
+        font-size: .85rem;
+        font-family: 'Rambla', sans-serif;
+        margin-bottom: .5rem;
+    }
+}
+
+.formContainer,
+form {
+
+    &__placehold {
+        font-family: 'Rambla', sans-serif;
+        font-size: 1rem;
+        letter-spacing: .6px;
+    }
+}
