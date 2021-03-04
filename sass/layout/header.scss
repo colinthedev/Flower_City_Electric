@@ -6,6 +6,10 @@
     // display: inline-block;
     grid-row: 1 / 2;
     grid-column: full-start / full-end;
+    background-image: url("../img/Header_backgrounddesktop.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
 
     &__background {
         position: absolute;

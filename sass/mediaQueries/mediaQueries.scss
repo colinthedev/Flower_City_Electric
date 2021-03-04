@@ -4,11 +4,6 @@
         font-size: 4.85rem;
     }
 
-    .aboutSummary {
-        font-size: 1.45rem;
-        line-height: 1.60rem;
-    }
-
     .aboutList {
         font-size: .9rem;
     }
@@ -37,14 +32,15 @@
     }
 
     .aboutSummary {
-        font-size: 1.7rem;
+        font-size: 1.45rem;
         line-height: 1.6rem;
-        margin-top: 4.25rem;
+        letter-spacing: .75px;
+        font-weight: 100;
     }
 }
 
 //Phones
-@media only screen and (min-device-width: 414px) {
+@media only screen and (min-device-width: 412px) {
     .HContainer__companyTxt {
         font-size: 6.25rem;
     }
@@ -55,9 +51,9 @@
    }
 
    .aboutSummary {
-    font-size: 1.85rem;
-    line-height: 1.7rem;
-    margin-top: 4.25rem;
+    font-size: 1.55rem;
+    line-height: 1.90rem;
+    letter-spacing: .75px;
     font-weight: 100;
     }
 
@@ -121,10 +117,11 @@
     }
 
     .aboutSummary {
-        font-size: 1.5rem;
-        line-height: 2rem;
-        letter-spacing: .5px;
-        margin: 8rem;
+        font-size: 1.90rem;
+        line-height: 2.75rem;
+        letter-spacing: .85px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
     //review section
     .reviewColumn__review {
@@ -139,6 +136,40 @@
         margin-bottom: 0;
     }
     //gallery
+    .galleryWrapper {
+        display: grid;
+        grid-column: full-start / full-end;
+        grid-template-columns: 2fr repeat(13, 1fr) 2fr;
+        grid-template-rows: repeat(7, 5vw);
+
+        &__img {
+            height: 100%;
+            width: 100%;
+            border-radius: 0;
+            margin-bottom: 2rem;
+            border: 5px solid orange;
+        }
+    }
+
+    .img1 {
+        grid-row: 3 / span 4;
+        grid-column: 2 / span 4;
+    }
+
+    .img2 {
+        grid-row: 2 / span 4;
+        grid-column: 5 / span 4;
+    }
+
+    .img3 {
+        grid-row: 3 / span 4;
+        grid-column: 8 / span 4;
+    }
+
+    .img4 {
+        grid-row: 2 / span 4;
+        grid-column: 11 / span 4;
+    }
 
     //footer
     .rowOneWrapper {
